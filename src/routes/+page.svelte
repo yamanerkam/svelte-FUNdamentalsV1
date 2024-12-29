@@ -34,6 +34,8 @@
         <button on:click={()=>customOperation(selectedOperator,updateValue)}>Update</button>
     </div>
 
+    <Component1 name="Kam"></Component1>
+
 </div>
 
 
@@ -69,6 +71,7 @@
 </style>
 
 <script lang="ts"   >
+    import Component1 from './Component1.svelte'
     let number : Number = 0;
     let updateValue : Number = 0;
     let selectedOperator : String = '+';
